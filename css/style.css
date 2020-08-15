@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box; }
+
+.u {
+  text-transform: uppercase; }
+
+.b {
+  font-weight: bold; }
+
+.c {
+  text-align: center; }
+
+.c-white {
+  color: #fff; }
+
+.c-black {
+  color: #000; }
+
+.c-yellow {
+  color: #f9c011; }
+
+.bg-grey {
+  background-color: #C6C6C6; }
+
+.icon {
+  fill: currentColor;
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0 0.2rem; }
+
+.input-group-text {
+  background-color: transparent;
+  color: #f9c011; }
+
+button {
+  cursor: pointer;
+  border: none; }
+
+.btn {
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #000;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  font-size: 1rem; }
+  .btn__submit {
+    color: #fff;
+    background-color: #0f044b;
+    border-radius: 2rem 2rem 0rem 2rem; }
+  .btn__secondary {
+    color: #54B363; }
+    .btn__secondary:hover {
+      color: #41934e;
+      background-color: #e6e6e6; }
+
+.card {
+  border-radius: 2rem; }
+  .card-trapez {
+    border-radius: 0rem 2rem 0rem 2rem; }
+  .card-trapez-rev {
+    border-radius: 2rem 0rem 2rem 0rem; }
+
+.media {
+  display: flex;
+  align-items: center; }
+  .media__rounded {
+    border-radius: 100%; }
+  .media__img {
+    background-size: cover;
+    height: 4.167rem;
+    width: 4.167rem;
+    margin-right: 1rem; }
+  .media__description--title {
+    font-size: 1.25rem; }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #E41B46;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer; }
+  .badge.success {
+    background-color: #54B363;
+    padding: 0 0.4167rem; }
+  .badge.passing {
+    background-color: #0026ff;
+    padding: 0 0.4167rem; }
+  .badge.failure {
+    background-color: #ff0000;
+    padding: 0 0.4167rem; }
+  .badge__main {
+    padding: 0 0.4167rem;
+    background-color: #E41B46;
+    cursor: pointer; }
+  .badge__msc {
+    padding: 0 0.4167rem;
+    background-color: #ff9900;
+    cursor: pointer; }
+    .badge__msc.success {
+      background-color: #54B363; }
+    .badge__msc.passing {
+      background-color: #0026ff; }
+    .badge__msc.failure {
+      background-color: #ff0000; }
+
+.flickity-slider {
+  box-sizing: border-box;
+  max-width: 1600px;
+  position: relative; }
+
+.main-carousel {
+  margin: 3rem 0; }
+
+.secondary-carousel {
+  padding: 2rem 0; }
+
+.y-rotate {
+  -webkit-animation: rotateY 3s infinite linear;
+  animation: rotateY 3s infinite linear; }
+
+@-webkit-keyframes rotateY {
+  to {
+    -webkit-transform: rotateY(360deg); } }
+
+@keyframes rotateY {
+  to {
+    transform: rotateY(360deg); } }
+
+.main__bg {
+  position: relative;
+  background-image: url("../../images/Layer 79.png");
+  background-size: cover;
+  height: 180vh; }
+  @media only screen and (min-width: 37.5rem) {
+    .main__bg {
+      height: 100vh; } }
+
+.main__logo {
+  height: 5rem;
+  margin-top: 1rem; }
+  @media only screen and (min-width: 37.5rem) {
+    .main__logo {
+      margin-top: 0rem; } }
+
+.main__machine {
+  position: absolute;
+  top: 15%;
+  width: 15rem;
+  left: 10%; }
+  @media only screen and (min-width: 37.5rem) {
+    .main__machine {
+      width: 20rem;
+      left: 40%; } }
+
+.main__rectangle {
+  position: absolute;
+  top: 7%;
+  height: 95%;
+  right: 0; }
+
+.info {
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (min-width: 37.5rem) {
+    .info {
+      margin-top: 5rem; } }
+  .info__info {
+    margin-top: 3rem; }
+  .info__subtitle {
+    font-size: 3rem;
+    font-weight: 500; }
+    @media only screen and (min-width: 37.5rem) {
+      .info__subtitle {
+        font-size: 4rem; } }
+
+.contact__info--desc {
+  display: flex;
+  flex-direction: row; }
+
+.equipment__title {
+  font-size: 2rem; }
+
+.full-bg {
+  background-image: url("../../images/Layer 79.png");
+  background-size: cover; }
+
+.address__container {
+  display: flex; }
+
+.address__icon {
+  color: #f9c011; }
+
+.footer__container {
+  font-size: 0.8rem; }
+  @media only screen and (min-width: 37.5rem) {
+    .footer__container {
+      display: flex; } }
+
+.footer__developer {
+  margin-left: auto; }
+
+.why__kepro .list-group .list-group-flush {
+  background-color: transparent; }
+
+.why__kepro .list-group-item {
+  background-color: transparent; }
+  .why__kepro .list-group-item:first-child {
+    border: none; }
+  .why__kepro .list-group-item:last-child {
+    border: none; }
+
+.why__kepro .list-group-item + .list-group-item {
+  border: none; }
+
+.about__kepro {
+  margin-bottom: 10rem;
+  position: relative; }
+  .about__kepro--img {
+    height: 12rem; }
+    @media only screen and (min-width: 37.5rem) {
+      .about__kepro--img {
+        height: 20rem; } }
